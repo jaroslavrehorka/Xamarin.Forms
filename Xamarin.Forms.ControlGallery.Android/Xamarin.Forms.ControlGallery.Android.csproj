@@ -27,6 +27,7 @@
     </NuGetPackageImportStamp>
     <AndroidEnableMultiDex>true</AndroidEnableMultiDex>
     <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
+    <ControlGallery>True</ControlGallery>
   </PropertyGroup>
   <PropertyGroup>
     <!-- default locally to using fast renderers but if we're running on CI don't set a value for ANDROID_RENDERERS.
@@ -223,7 +224,7 @@
       <Project>{e1586ce6-8eac-4388-a15a-1aabf108b5f8}</Project>
       <Name>Xamarin.Forms.Material.Android</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Xamarin.Forms.Platform.UnitTests\Xamarin.Forms.Platform.UnitTests.Android\Xamarin.Forms.Platform.UnitTests.Android.csproj">
+    <ProjectReference Include="..\Xamarin.Forms.Platform.UnitTests\Android\Xamarin.Forms.Platform.UnitTests.Android.csproj">
       <Project>{f6e412e9-6591-44be-a3d6-301c1df9541a}</Project>
       <Name>Xamarin.Forms.Platform.UnitTests.Android</Name>
     </ProjectReference>
