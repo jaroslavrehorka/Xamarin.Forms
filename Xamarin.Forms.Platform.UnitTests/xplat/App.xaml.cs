@@ -10,7 +10,7 @@ namespace Xamarin.Forms.Platform.UnitTests
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			MainPage = new PlatformTestsConsole();
 		}
 
 		protected override void OnStart()

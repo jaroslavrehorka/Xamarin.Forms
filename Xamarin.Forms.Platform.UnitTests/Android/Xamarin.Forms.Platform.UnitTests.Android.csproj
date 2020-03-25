@@ -71,12 +71,14 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="OpacityTests.cs" />
     <Compile Include="PlatformTestFixture.cs" />
+    <Compile Include="PlatformTestSettings.cs" />
     <Compile Include="RendererTests.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RotationTests.cs" />
     <Compile Include="ScaleTests.cs" />
     <Compile Include="TestClasses\_5560Model.cs" />
+    <Compile Include="TestingPlatformService.cs" />
     <Compile Include="TextTests.cs" />
     <Compile Include="TranslationTests.cs" />
   </ItemGroup>
@@ -131,6 +133,9 @@
       <Project>{0428e1a1-bfaf-40c4-ae25-453d8e1ec44f}</Project>
       <Name>Xamarin.Forms.Platform.UnitTests</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <LinkDescription Include="LinkDescription.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
