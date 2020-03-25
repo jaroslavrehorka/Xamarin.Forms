@@ -225,6 +225,7 @@
       <Name>Xamarin.Forms.Material.Android</Name>
     </ProjectReference>
     <ProjectReference Include="..\Xamarin.Forms.Platform.UnitTests\Android\Xamarin.Forms.Platform.UnitTests.Android.csproj">
+	  <SetConfiguration>Configuration=DebugLibrary</SetConfiguration>
       <Project>{f6e412e9-6591-44be-a3d6-301c1df9541a}</Project>
       <Name>Xamarin.Forms.Platform.UnitTests.Android</Name>
     </ProjectReference>
